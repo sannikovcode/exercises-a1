@@ -1,28 +1,29 @@
 package main
 
-import (
-	"fmt"
-	"strings"
-)
+import "fmt"
 
 func main() {
-	var email string
+	var x int
 
-	fmt.Println("Введите ваше мыло: ")
-	fmt.Scan(&email)
+	fmt.Println("Введите пожалуйста число: ")
+	_, err := fmt.Scan(&x)
 
-	hasOneAt := strings.Count(email, "@") == 1
-	parts := strings.Split(email, "@")
-	partLocalBefor := len(parts[0]) >= 3
-	partAfter := len(parts[1]) >= 5
-
-	hasStartDot := !strings.HasPrefix(email, ".")
-	hasEndDOt := !strings.HasSuffix(email, ".")
-
-	if hasOneAt && partLocalBefor && partAfter && hasStartDot && hasEndDOt {
-		fmt.Println("Корректный")
-	} else {
-		fmt.Println("Некоретный")
+	if err != nil {
+		fmt.Println("Ошибка! Введите число: ")
+		return
 	}
+
+	if x <= 0 {
+		fmt.Println("Ошибка! Введите пожалйста положительное число!")
+		return
+	}
+
+	fmt.Println("Считаем от 1 до: ", x, ":")
+
+	for i := 1; i <= x; i++ {
+		fmt.Println(i)
+	}
+
+	fmt.Println("Кончили!")
 
 }
