@@ -4,7 +4,7 @@ import "fmt"
 
 func main() {
 
-	hour := 23
+	hour := 6
 
 	if hour >= 6 && hour <= 11 {
 		fmt.Println("Сейчас утро")
