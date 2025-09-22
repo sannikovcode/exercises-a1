@@ -1,5 +1,0 @@
-package xxxbranchxxx
-
-func main() {
-
-}
