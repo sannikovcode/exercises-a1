@@ -15,7 +15,7 @@ func main() {
 
 	for i, value := range temperatures {
 
-		fmt.Printf("%s : %d", daysOfWeek[i], value)
+		fmt.Printf("%s : %d\n", daysOfWeek[i], value)
 
 		sum += value
 
@@ -37,7 +37,7 @@ func main() {
 	}
 	fmt.Println("-------------------")
 
-	fmt.Printf("Средняя температура: %.2fC", result)
+	fmt.Printf("Средняя температура: %.2fC\n", result)
 	fmt.Printf("Максимальная температура: %d\n", max)
 	fmt.Printf("Минимальная температура: %d\n", min)
 	fmt.Printf("Дней с температурой выше средней: %d\n", daysAboveAverage)
