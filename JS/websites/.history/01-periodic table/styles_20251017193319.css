@@ -1,4 +1,3 @@
-/* 1 */
 table {
   border-collapse: collapse;
   width: 100%;
@@ -13,14 +12,8 @@ th, td {
   text-align: left;
 }
 
-/*2*/
+/* fdsfsdafsadfsdafsa */
 td {
   text-align: center; /* горизонтальное центрирование */
   vertical-align: middle; /* вертикальное центрирование */
-}
-
-/* элементы */
-
-#S {
-  background-color: lightblue;
 }

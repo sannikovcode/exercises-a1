@@ -18,9 +18,3 @@ td {
   text-align: center; /* горизонтальное центрирование */
   vertical-align: middle; /* вертикальное центрирование */
 }
-
-/* элементы */
-
-#S {
-  background-color: lightblue;
-}
