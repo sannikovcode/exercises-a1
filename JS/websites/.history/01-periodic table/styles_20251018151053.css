@@ -1,0 +1,70 @@
+/* 1 */
+table {
+  border-collapse: collapse;
+  width: 99%;
+  font-family: Arial, sans-serif;
+}
+
+table, th, td {
+  border: 2px solid #333;
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+  background-color: bisque;
+}
+/*2*/
+td {
+  text-align: center; /* горизонтальное центрирование */
+  vertical-align: middle; /* вертикальное центрирование */
+}
+
+/* элементы */
+
+#s {
+  background-color: rgb(207, 109, 183);
+}
+#p {
+  background-color: rgb(248, 255, 152);
+}
+#d {
+  background-color: rgb(76, 171, 202);
+}
+#f {
+  background-color: rgb(114, 211, 130);
+}
+
+
+
+/* table {
+  border-collapse: collapse;
+  width: 100%;
+  font-family: Arial, sans-serif;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #4CAF50;
+  color: white;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+tr:hover {
+  background-color: #ddd;
+}
+
+caption {
+  caption-side: top;
+  font-weight: bold;
+  padding: 10px;
+  font-size: 1.2em;
+} */

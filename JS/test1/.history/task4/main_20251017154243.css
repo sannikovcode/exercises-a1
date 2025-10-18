@@ -1,0 +1,18 @@
+a:link {
+  color: blue;         /* цвет для новых ссылок */
+  text-decoration: underline;
+}
+a:visited {
+  color: rgb(224, 200, 224);       /* цвет после посещения */
+}
+a:hover {
+  color: red;          /* цвет при наведении */
+  text-decoration: none; /* убрать подчеркивание */
+}
+a:active {
+  color: orange;       /* цвет при клике и удержании */
+}
+.custom-list {
+  list-style-type: circle;
+  font-weight: bold;
+}

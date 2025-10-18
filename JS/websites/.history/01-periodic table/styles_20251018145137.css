@@ -1,0 +1,35 @@
+/* 1 */
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table, th, td {
+  border: 1px solid #333;
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+}
+
+/*2*/
+td {
+  text-align: center; /* горизонтальное центрирование */
+  vertical-align: middle; /* вертикальное центрирование */
+}
+
+/* элементы */
+
+#s {
+  background-color: lightblue;
+}
+#p {
+  background-color: lightblue;
+}
+#d {
+  background-color: lightblue;
+}
+#f {
+  background-color: lightblue;
+}

@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>88</title>
+    <link rel="stylesheet" href="main.css" />
+
+</head>
+<h1>Links and navigation</h1>
+<h2>Абсолютные и относительные URL</h2>
+
+<hr>
+<h2>Якорные ссылки</h2>
+<hr>
+<h2>Атрибуты target</h2>
+<hr>
+<h2>Атрибут download</h2>
+<hr>
+<h2>Ссылки mailto:, tel:</h2>
+<hr>
+<h2>Атрибут rel</h2>
+<hr>
+<h2>Навигация меню</h2>
+<br>
+<nav>
+    <ul>
+        <li><a href="#">Главная</a></li>
+        <li><a href="#">О нас</a></li>
+        <li><a href="#">Услуги</a></li>
+        <li><a href="#">Контакты</a></li>
+    </ul>
+</nav>
+<br>
+<hr>
+<h2>Активные состояния ссылок</h2>
+<br>
+<nav>
+    <ul>
+        <li><a href="#">Главная</a></li>
+        <li><a href="#">О нас</a></li>
+        <li><a href="#">Услуги</a></li>
+        <li><a href="#">Контакты</a></li>
+    </ul>
+</nav>
+<br>
+<hr>
+<h2>Доступность (aria-label, title)</h2>
+<br>
+<button aria-label="Закрыть меню">
+    <sgv>123</sgv>
+</button>
+<br>
+<a href="#" title="Перейти на главную траницу">Главная</a>
+<br>
+<hr>
+<h1>Images in HTML</h1>
+<h2>Тег img с src alt</h2>
+<img src="logo.jpg" alt="Логотип компании" />
+<hr>
+<h3>Атрибуты width and height</h3>
+<img src="logo.jpg" width="50" height="50" alt="Логотип компании">
+<hr>
+<img src="logo.jpg" width="12" height="12">
+<hr>
+<br>
+<h3>Responsive images с srcset, sizes</h3>
+<img src="logo.jpg" alt="просто лого" srcset="small.jpg 480w, medium.jpg 800w, large.jpg 1200w">
+<br>
+<hr>
+<h3>sizes</h3>
+<img src="logo.jpg" alt="dfdsafsaf" sizes="(max-width: 600px) 480px, (max-width: 900px) 800px, 1200px">
+<hr>
+<br>
+<h3>Элемент picture </h3>
+<p>
+    <picture>
+        <source srcset="large.jpg" media="(min-width: 800px)">
+        <source srcset="medium.jpg" media="(min-width): 400px">
+        <img src="logo.jpg" alt="Пример изображения">
+    </picture>
+</p>
+<hr>
+<h3>loading lazy</h3>
+<img src="logo.jpg" alt="dsfsafdsa" loading="lazy">
+<hr>
+<h3> figure gigcaption</h3>
+<figure>
+    <img src="logo.jpg" alt="12345">
+    <figcaption><i>Обычное лого</i></figcaption>
+</figure>
+<hr>
+<h3>Карты изображения</h3>
+<img src="menu.jpg" usermap="#menu-map" alt="Меню">
+
+<map name="menu-map">
+    <area shape="rect" coords="0,0,100,50" href="home.html" alt="Главная">
+    <area shape="rect" coords="100,0,200,50" href="about.html" alt="О нас">
+</map>
+<hr>
+<h3>title </h3>
+<button title="Нажмите для отправки формы">Отправить</button>
+<hr>
+<h3>Оптимизация и сжатие</h3>
+<picture>
+    <source srcset="image.avif" type="image/avif">
+    <source srcset="image.webp" type="image/webp">
+    <img src="image.jpg" alt="Оптимизированное изображение">
+</picture>
+<br>
+<hr>
+<h1> HTML list</h1>
+<h2>Неупорядочные ul li</h2>
+<ul>
+    <li>пункт 1</li>
+    <li>пункт 2</li>
+    <li>пукнт 3</li>
+</ul>
+<hr>
+<ul>
+    <li>
+        Пунтк 1
+    </li>
+    <li>
+        Пункт 2
+        <ul>
+            <li>Подпункт 2.1</li>
+            <li>Подпункт 2.2
+                <ul>
+                    <li>Под-подпункт 2.2.1</li>
+                    <li>Под-подпункт 2.2.2</li>
+                </ul>
+            </li>
+            <li>Подпункт 2.3</li>
+        </ul>
+    </li>
+    <li>Пунтк 3</li>
+</ul>
+<hr>
+<h3>Упорядочные ol с type star reversed</h3>
+<br>
+<ol type="a" start="1">
+    <li>Пункт первый</li>
+    <li>Пункт второй</li>
+    <li>Пункт третий</li>
+</ol>
+<br>
+<hr>
+<h3>Списки описания dl dt dd</h3>
+<dl>
+    <dt>HTML</dt>
+    <dd>Язык гипертекстовой разметки</dd>
+    <dt>CSS</dt>
+    <dd>Каскадные таблицы стилей</dd>
+    <dd>Язык для оформления HTML-документов</dd>
+</dl>
+<hr>
+<br>
+<hr>
+<h3>Вложенный списки в HTML</h3>
+<ul>
+    <li>Пункт 1
+        <ul>
+            <li>Пункт 1.1</li>
+            <li>Пункт 1.2</li>
+        </ul>
+    </li>
+    <li>Пункт 2</li>
+</ul>
+<hr>
+<ol>
+    <li>Утро
+        <ul>
+            <li>Завтрак</li>
+            <li>Чтение новостей</li>
+        </ul>
+    </li>
+    <li>День
+        <ol typ="a">
+            <li>Работа</li>
+            <li>Обед</li>
+        </ol>
+    </li>
+</ol>
+<br>
+<hr>
+<h3>Стилизация маркеров</h3>
+<ul class="custom-list">
+    <li>Пункт 1</li>
+    <li>Пункт 2</li>
+</ul>
+
+<hr>
+<br>
+<h3>Навигационные списки</h3>
+<br>
+<nav>
+    <ul>
+        <li href="#home">Главная</li>
+        <li href="#news">Новости</li>
+    </ul>
+</nav>
+<hr>
+<br>
+<h3>Accessibillity для списков</h3>
+
+<ul>
+    <li>пункт 1</li>
+    <li>пункт 2</li>
+    <li>пункт 3</li>
+</ul>
+<hr>
+<ol>
+    <li>перввый шаг</li>
+    <li>второй шаг</li>
+    <li>треитий шаг</li>
+</ol>
+<hr>
+<h3>кастомные маркеры</h3>
+<ul id="norm">
+    <li>пункт 1</li>
+    <li>пункт 2</li>
+    <li>пункт 3</li>
+</ul>
+
+<hr>
+<hr>
+<hr>
+<h2>Интерактивные списки</h2>
+<h2>Мой список дел</h2>
+<input type="text" id="taskInput" placeholder="Что сделать...">
+<button onclick="addTask()">Добавить</button>
+<ul id="taskList">
+    <li>Пример задачи</li>
+</ul>
+
+
+<script src="main.js"></script>
+<br>
+<hr>
+<h1>Basic forms</h1>
+<hr>
+<h3>fom action method enctype</h3>
+<form action="/submit" method="post" enctype="multipart/form-data">
+    <label for="username">Имя:</label>
+    <input type="text" id="username" name="username" required>
+
+    <label for="avatar">Аватар:</label>
+    <input type="file" id="avatar" name="avatar">
+    <button type="submit">Отправить</button>
+</form>
+
+<hr>
+<h3>поля ввода </h3>
+<label for="username">Логин:</label>
+<input type="text" id="username" name="username" placeholder="Введите логин" required>
+
+<label for="password">пароль</label>
+<input type="password" od="password" name="password" placeholder="введите пароль" required minlength="8">
+<h3>Текстовая область textarea </h3>
+<label for="comment">Комментарий:</label>
+<textarea name="comment" id="comment" rows="5" cols="50" placeholder="введите ваш комментарий"></textarea>
+
+<hr>
+
+<h3>Выпадающие списки select option optgroup</h3>
+<select name="fruits">
+    <option value="apple">Яблоко</option>
+    <option value="banana">Банан</option>
+    <option value="orange">Апельсин</option>
+</select>
+<hr>
+<select name="products">
+    <optgroup label="Фрукты">
+        <option value="apple">Яблоко</option>
+        <option value="banana">Банан</option>
+    </optgroup>
+    <optgroup label="Овощи">
+        <option value="carrot">Марковь</option>
+        <option value="potato">Картофель</option>
+    </optgroup>
+    <optgroup label="Сезонные фрукты" disabled>
+        <option value="strawbarry">Клубника</option>
+        <option value="cherry">Вишня</option>
+    </optgroup>
+
+</select>
+<hr>
+<h3>Чекбоксы и радиокнопки</h3>
+<label><input type="checkbox" name="fruits" value="apple"> Яблоко</label>
+<label><input type="checkbox" name="fruits" value="banana"> Банан</label>
+<label><input type="checkbox" name="fruits" value="orange"> Апельсин</label>
+<hr>
+<label><input type="radio" name="gender" value="male" checked> Мужчина</label>
+<label><input type="radio" name="gender" value="female"> Женщина</label>
+<label><input type="radio" name="gender" value="other"> Другое</label>
+<hr>
+<h3>кнопки button </h3>
+<form action="">
+    <button type="submit">ОТправить</button>
+    <input type="submit" value="Отправить форму">
+    <button type="reset">Очистить</button>
+    <input type="reset" value="Очистить форму">
+    <button type="button" onclick="alert('просто кнопка')">Нажми на меня</button>
+</form>
+<hr>
+<h3>метки label for</h3>
+<label for="username">Имя пользователя:</label>
+<input type="text" id="username" name="username">
+<hr>
+<h3>группировка fieldset legend</h3>
+<form>
+    <fieldset>
+        <legend>Персональные данные</legend>
+        <label for="name">Имя:</label>
+        <input type="text" id="name" name="name" required>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+    </fieldset>
+    <hr>
+</form>
+
+<fieldset>
+    <legend>Выбор напитка</legend>
+    <label><input type="radio" name="drink" value="coffee" checked> Кофе</label>
+    <label><input type="radio" name="drink" value="tea"> Чай</label>
+</fieldset>
+</form>
+
+<h3>Атриуты name value </h3>
+<input type="text" name="username">
+</body>
+
+</html>

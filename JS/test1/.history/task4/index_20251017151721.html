@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>88</title>
+    <link rel="stylesheet" href="main.css" />
+
+</head>
+<h1>Links and navigation</h1>
+<h2>Абсолютные и относительные URL</h2>
+
+<hr>
+<h2>Якорные ссылки</h2>
+<hr>
+<h2>Атрибуты target</h2>
+<hr>
+<h2>Атрибут download</h2>
+<hr>
+<h2>Ссылки mailto:, tel:</h2>
+<hr>
+<h2>Атрибут rel</h2>
+<hr>
+<h2>Навигация меню</h2>
+<br>
+<nav>
+    <ul>
+        <li><a href="#">Главная</a></li>
+        <li><a href="#">О нас</a></li>
+        <li><a href="#">Услуги</a></li>
+        <li><a href="#">Контакты</a></li>
+    </ul>
+</nav>
+<br>
+<hr>
+<h2>Активные состояния ссылок</h2>
+<br>
+<nav>
+    <ul>
+        <li><a href="#">Главная</a></li>
+        <li><a href="#">О нас</a></li>
+        <li><a href="#">Услуги</a></li>
+        <li><a href="#">Контакты</a></li>
+    </ul>
+</nav>
+<br>
+<hr>
+<h2>Доступность (aria-label, title)</h2>
+<br>
+<button aria-label="Закрыть меню">
+    <sgv>123</sgv>
+</button>
+<br>
+<a href="#" title="Перейти на главную траницу">Главная</a>
+<br>
+<hr>
+<h1>Images in HTML</h1>
+<h2>Тег img с src alt</h2>
+<img src="logo.jpg" alt="Логотип компании" />
+<hr>
+<h3>Атрибуты width and height</h3>
+<img src="logo.jpg" width="50" height="50" alt="Логотип компании">
+<hr>
+<img src="logo.jpg" width="12" height="12">
+<hr>
+<br>
+<h3>Responsive images с srcset, sizes</h3>
+<img src="logo.jpg" alt="просто лого" srcset="small.jpg 480w, medium.jpg 800w, large.jpg 1200w">
+<br>
+<hr>
+<h3>sizes</h3>
+<img src="logo.jpg" alt="dfdsafsaf" sizes="(max-width: 600px) 480px, (max-width: 900px) 800px, 1200px">
+<hr>
+<br>
+<h3>Элемент picture </h3>
+<p>
+    <picture>
+        <source srcset="large.jpg" media="(min-width: 800px)">
+        <source srcset="medium.jpg" media="(min-width): 400px">
+        <img src="logo.jpg" alt="Пример изображения">
+    </picture>
+</p>
+<hr>
+<h3>loading lazy</h3>
+<img src="logo.jpg" alt="dsfsafdsa" loading="lazy">
+<hr>
+<h3> figure gigcaption</h3>
+<figure>
+    <img src="logo.jpg" alt="12345">
+    <figcaption><i>Обычное лого</i></figcaption>
+</figure>
+<hr>
+<h3>Карты изображения</h3>
+<img src="menu.jpg" usermap="#menu-map" alt="Меню">
+
+<map name="menu-map">
+    <area shape="rect" coords="0,0,100,50" href="home.html" alt="Главная">
+    <area shape="rect" coords="100,0,200,50" href="about.html" alt="О нас">
+</map>
+<hr>
+<h3>title </h3>
+<button title="Нажмите для отправки формы">Отправить</button>
+<hr>
+<h3>Оптимизация и сжатие</h3>
+<picture>
+    <source srcset="image.avif" type="image/avif">
+    <source srcset="image.webp" type="image/webp">
+    <img src="image.jpg" alt="Оптимизированное изображение">
+</picture>
+<br>
+<hr>
+<h1> HTML list</h1>
+<h2>Неупорядочные ul li</h2>
+<ul>
+    <li>пункт 1</li>
+    <li>пункт 2</li>
+    <li>пукнт 3</li>
+</ul>
+<hr>
+<ul>
+    <li>
+        Пунтк 1
+    </li>
+    <li>
+        Пункт 2
+        <ul>
+            <li>Подпункт 2.1</li>
+            <li>Подпункт 2.2
+                <ul>
+                    <li>Под-подпункт 2.2.1</li>
+                    <li>Под-подпункт 2.2.2</li>
+                </ul>
+            </li>
+            <li>Подпункт 2.3</li>
+        </ul>
+    </li>
+    <li>Пунтк 3</li>
+</ul>
+<hr>
+<h3>Упорядочные ol с type star reversed</h3>
+<br>
+<ol type="1" start="1" reversed>
+    <li>Пункт первый</li>
+    <li>Пункт второй</li>
+    <li>Пункт третий</li>
+</ol>
+
+
+
+
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,24 @@
+ nav {
+    background-color: #333;
+  }
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex; /* горизонтальное меню */
+  }
+  nav li {
+    margin: 0;
+  }
+  nav a {
+    display: block;
+    color: white;
+    padding: 12px 20px;
+    text-decoration: none;
+  }
+  nav a:hover {
+    background-color: #555;
+  }
+  .active {
+    background-color: #04AA6D;
+  }

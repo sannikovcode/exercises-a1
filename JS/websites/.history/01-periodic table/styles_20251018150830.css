@@ -1,0 +1,36 @@
+/* 1 */
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table, th, td {
+  border: 100px solid #333;
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+  background-color: bisque;
+}
+
+/*2*/
+td {
+  text-align: center; /* горизонтальное центрирование */
+  vertical-align: middle; /* вертикальное центрирование */
+}
+
+/* элементы */
+
+#s {
+  background-color: rgb(207, 109, 183);
+}
+#p {
+  background-color: rgb(248, 255, 152);
+}
+#d {
+  background-color: rgb(76, 171, 202);
+}
+#f {
+  background-color: rgb(114, 211, 130);
+}

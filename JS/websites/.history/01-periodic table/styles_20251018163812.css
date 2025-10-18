@@ -1,0 +1,74 @@
+body {
+  background-color: hsl(0, 0%, 94%); /* фон всей страницы */
+  margin: 0;
+  padding: 20px;
+}
+table {
+  background-color: #ffffff; /* фон таблицы */
+  border-collapse: collapse;
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+table, th, td {
+  border: 2px solid #000000;
+}
+
+th, td {
+  padding: 8px;
+  text-align: center;
+  background-color: bisque;
+}
+caption {
+  caption-side: top;
+  padding: 20px;
+  font-weight: bolder;
+  font-size: 2em;
+}
+thead {
+  background-color: #222;   /* тёмный фон для заголовков */
+  color: rgb(112, 112, 173);              /* светлый текст */
+  font-weight: lighter;
+  font-size: 1.5em;
+}
+tbody tr:hover {
+  background-color: #7e3e3e;     /* выделение строки при наведении */
+  color: #2a1199;
+}
+
+
+
+/* элементы */
+.s {
+  background-color: rgb(207, 109, 183);
+  font-size: 1.5em;
+
+}
+
+.p {
+  background-color: rgb(248, 255, 152);
+}
+
+.d {
+  background-color: rgb(76, 171, 202);
+}
+
+.f {
+  background-color: rgb(114, 211, 130);
+}
+
+
+.item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+  .rectangle {
+    width: 50px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+

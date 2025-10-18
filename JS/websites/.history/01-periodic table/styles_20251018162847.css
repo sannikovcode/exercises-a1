@@ -1,0 +1,70 @@
+/* 1 */
+table {
+  background-color: #ffffff; /* фон таблицы */
+  border-collapse: collapse;
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+/* table, th, td {
+  border: 2px solid #333;
+} */
+
+th, td {
+  padding: 8px;
+  text-align: center;
+  background-color: bisque;
+}
+caption {
+  caption-side: top;
+  font-weight: bold;
+  padding: 20px;
+  font-size: 1.5em;
+}
+thead {
+  background-color: #222;   /* тёмный фон для заголовков */
+  color: blue;              /* светлый текст */
+  font-weight: bold;
+}
+tbody tr:hover {
+  background-color: #7e3e3e;     /* выделение строки при наведении */
+  color: #2a1199;
+}
+body {
+  background-color: #f0f0f0; /* фон всей страницы */
+  margin: 0;
+  padding: 20px;
+}
+
+
+/* элементы */
+.s {
+  background-color: rgb(207, 109, 183);
+}
+
+.p {
+  background-color: rgb(248, 255, 152);
+}
+
+.d {
+  background-color: rgb(76, 171, 202);
+}
+
+.f {
+  background-color: rgb(114, 211, 130);
+}
+
+
+.item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+  .rectangle {
+    width: 50px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+
